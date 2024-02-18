@@ -443,3 +443,8 @@ footer > p {
     max-width: 20%;
     border-radius: 50%;
 }
+
+footer {
+    max-width: var(--width-content);
+    padding: 0rem ;
+}
