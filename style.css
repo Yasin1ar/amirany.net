@@ -448,3 +448,15 @@ footer {
     max-width: var(--width-content);
     padding: 0rem ;
 }
+
+
+#snake-game-link img {
+    max-width: 30%;
+
+}
+
+@media only screen and (max-width: 25em) {
+    #snake-game-link {
+      display: none;
+    }
+}
