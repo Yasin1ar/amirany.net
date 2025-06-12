@@ -2,7 +2,6 @@
 .hugo_build.lock
 package-lock.json
 # Hugo output
-/public/
 /resources/
 
 # Temporary files
