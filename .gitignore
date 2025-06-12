@@ -4,6 +4,7 @@ package-lock.json
 # Hugo output
 /resources/
 /public/
+public
 hugo_stats.json
 # Temporary files
 .DS_Store
