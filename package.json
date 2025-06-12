@@ -1,0 +1,20 @@
+{
+    "name": "Yasin Amirany Blog",
+    "version": "1.0.0",
+    "description": "Personal Hugo Blog",
+    "main": "index.js",
+    "scripts": {
+        "build": "npm run tailwind:build && hugo --minify",
+        "build:dev": "npm run tailwind:build && hugo --minify && serve public",
+        "tailwind:build": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --minify"
+    },
+    "keywords": [],
+    "author": "Yasin Amirany",
+    "license": "MIT",
+    "devDependencies": {
+        "tailwindcss": "^4.1.8"
+    },
+    "dependencies": {
+        "@tailwindcss/cli": "^4.1.8"
+    }
+}

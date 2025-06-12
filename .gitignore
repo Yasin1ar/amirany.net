@@ -1,0 +1,26 @@
+.qodo
+.hugo_build.lock
+package-lock.json
+# Hugo output
+/public/
+/resources/
+
+# Temporary files
+.DS_Store
+Thumbs.db
+
+# Node.js dependencies (for the main site if you had any here)
+node_modules/
+
+# IDE files (e.g., VS Code)
+.vscode/
+.idea/
+
+# Dotenv files
+.env
+.env.*
+
+# Editor backup files
+*~
+*.bak
+*.swp

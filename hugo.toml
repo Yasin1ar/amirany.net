@@ -1,0 +1,14 @@
+baseURL = 'http://localhost:3000/'
+languageCode = 'en-us'
+title = 'Yasin Amirany | Back-end Developer | Personal blog'
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[[menus.main]]
+name = 'Posts'
+pageRef = '/posts'
+  
+[build]
+  writeStats = true

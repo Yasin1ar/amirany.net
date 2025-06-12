@@ -1,0 +1,45 @@
+@import 'tailwindcss';
+
+/* Custom styles below */
+
+@font-face {
+    font-family: 'Bangers';
+    src: url('../fonts/Bangers-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+.font-bangers {
+    font-family: 'Bangers', system-ui;
+}
+
+
+/* Custom styles for markdown content */
+
+.custom-prose {
+    /* Image styles */
+    img {
+        margin: 1rem 0;
+        border-radius: 0.5rem;
+        max-width: 100%;
+        height: auto;
+    }
+    /* Code block styles */
+    pre {
+        margin: 1rem 0;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        overflow-x: auto;
+        max-width: 100%;
+    }
+    /* Inline code styles */
+    code {
+        padding: 0.125rem 0.25rem;
+        border-radius: 0.25rem;
+    }
+    /* Ensure all content is properly padded and doesn't overflow */
+    * {
+        max-width: 100%;
+    }
+}
